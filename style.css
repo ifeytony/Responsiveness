@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+  .main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(images/bg-intro-desktop.png), linear-gradient(rgba(184, 22, 11, 0.699)10%,rgba(184, 22, 11, 0.699)10%);
+    background-size: cover;
+  }
+
+  .free-text{
+    color: white;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 5%;
+
+  }
+
+  h1{
+    font-size: 50px;
+    padding: 0.5em;
+    text-align: left;
+  }
+
+  h4{
+    padding-left: 135px;
+    width: 600px;
+  }
+
+  p{
+    padding: 1em;
+    text-align: left;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .inside-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10%;
+    padding-right: 10%;
+
+  }
+  .header-box{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    align-content: center;
+    box-shadow:5px 5px rgba(0,0,0,0.125);
+  }
+
+.form{
+    padding: 50px;
+    border-radius: 5px;
+    width: 100%;
+    background: #fff;
+    box-shadow:5px 5px rgba(0,0,0,0.125);
+    align-items: center;
+    width: 630px;
+}
+
+

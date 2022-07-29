@@ -5,41 +5,55 @@
     font-family: "Lexend Deca", sans-serif;
   }
 
-  .main-box{
+  .container{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     min-height: 100vh;
-    width: 100%;
+    max-width: 100%;
     background: url(images/bg-intro-desktop.png), linear-gradient(rgba(184, 22, 11, 0.699)10%,rgba(184, 22, 11, 0.699)10%);
-    background-size: cover;
+    background-size:cover;
+    margin: 0 auto;
   }
 
   .free-text{
     color: white;
-    align-items: center;
-    padding-top: 20%;
-    padding-left: 5%;
+    align-items: left;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-bottom: 10%;
 
   }
 
   h1{
-    font-size: 50px;
+    font-size: 45px;
     padding: 0.5em;
     text-align: left;
+    font-weight: 500px;
+    display: flex;
   }
 
   h4{
-    padding-left: 95px;
-    width: 480px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 7em;
+    width: 600px;
+  }
+
+  .subtext{
+    padding-left: 2em;
+    text-align: left;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   p{
-    padding: 1em;
     text-align: left;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-top: 0.5em;
   }
 
   .inside-box{
@@ -47,11 +61,12 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-right: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 
   }
+
   .header-box{
     background-color: blueviolet;
     color: white;
@@ -59,6 +74,8 @@
     border-radius: 5px;
     align-content: center;
     box-shadow:5px 5px rgba(0,0,0,0.125);
+    width: 80%;
+    text-align: center;
   }
 
 .form{
@@ -67,51 +84,35 @@
     width: 100%;
     background: #fff;
     box-shadow:5px 5px rgba(0,0,0,0.125);
-    /* align-items: center; */
-    width: 500px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     flex-direction: column;
-    gap: 20px;
-    ;
-    
+    text-align: left;
 }
 
 .inputfield{
-    width: calc(300%/ 2 - 20px);
-}
-.inputfield input{
-  height: 35px;
-  width: 400px;
+  padding: 15px;
+  border-radius: 5px;
 
+  
 }
 
-
-
-.insert{
-  text-align: left;
-  font-size: 11px;
-  color: grey;
-  font-weight: 150px;
-  width: calc(300%/ 2 - 20px);
-  padding-left: 5%;
+input{
+  padding: 0.5em;
+  padding-right: 20em;
 }
 
+.btn{
+  background-color: green;
+  align-items: center;
+  color: #fff;
+  border: green;
+  
+
+}
 
 span{
   color: red;
 }
-
-.btn{
- background-color: rgb(22, 170, 22);
- color: white;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- border: #fff;
-}
-
-@media screen and (max-width:375px) {
-  .main-box{flex-direction: column;}
-  
-}
-  
